@@ -1,16 +1,17 @@
-/* BowlBoard landing — v0.2 brand: scoreboard gold on charcoal */
+/* BowlBoard landing — final brand: amber + pin red on ink, paper cream text */
 :root {
-  --bg: #0e0e0e;
-  --bg2: #1a1611;
+  --bg: #121416;
+  --bg2: #1a1a1c;
   --card: #232323;
-  --line: #3a332a;
-  --cream: #f8eed9;
-  --ink: #fff7e6;
+  --line: #3a3a3a;
+  --cream: #f8eed7;
+  --ink: #f8eed7;
   --muted: #b8ab93;
   --dim: #6b6b6b;
-  --gold: #f6a623;
+  --gold: #f6b042;
   --amber: #ffb347;
   --orange: #e67e22;
+  --pinred: #e02a24;
   --green: #2ecc71;
   --red: #e74c3c;
   --radius: 18px;
@@ -57,8 +58,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 56px); }
 }
 .pill {
   display: inline-block; font-size: .85rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--gold); border: 1px solid rgba(246,166,35,.45); border-radius: 999px; padding: 8px 18px; margin: 0 0 22px;
-  background: rgba(246,166,35,.07);
+  color: var(--pinred); border: 1px solid rgba(224,42,36,.5); border-radius: 999px; padding: 8px 18px; margin: 0 0 22px;
+  background: rgba(224,42,36,.07);
 }
 .hero h1 { font-size: clamp(2.6rem, 5.5vw, 4.2rem); line-height: 1.05; margin: 0 0 20px; letter-spacing: -0.02em; font-weight: 800; }
 .hero h1 em { font-style: normal; background: linear-gradient(135deg, var(--gold), var(--amber)); -webkit-background-clip: text; background-clip: text; color: transparent; }
@@ -104,7 +105,7 @@ h2 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin: 0 0 10px; letter-spacing: 
 .soon ul { list-style: none; padding: 0; margin: 0 0 32px; display: grid; gap: 12px; }
 .soon li { color: var(--muted); font-size: 1.05rem; }
 .soon li strong { color: var(--ink); }
-.soon li::before { content: "✦ "; color: var(--gold); }
+.soon li::before { content: "✦ "; color: var(--pinred); }
 
 footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 28px 20px 40px; border-top: 1px solid var(--line); }
 
