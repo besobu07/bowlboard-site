@@ -196,6 +196,34 @@ h2 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin: 0 0 10px; letter-spacing: 
 .banner-strip img { display: block; width: 100%; height: auto; }
 
 footer { background: var(--cream); text-align: center; padding: 44px 20px 40px; margin-top: clamp(40px, 6vw, 80px); }
+.foot-links { margin: 0 0 12px; font-size: .95rem; }
+.foot-links a { color: #3a3a3a; text-decoration: none; font-weight: 600; margin: 0 6px; }
+.foot-links a:hover { color: var(--pinred); }
+
+/* Legal / support pages */
+.legal { max-width: 720px; }
+.legal h1 { font-size: clamp(2rem, 4.5vw, 3rem); letter-spacing: -0.02em; font-weight: 800; margin: 0 0 16px; }
+.legal h2 { text-align: left; font-size: 1.45rem; margin: 44px 0 10px; }
+.legal p { color: var(--muted); }
+.legal a { color: var(--gold); }
+.legal .lede { color: var(--cream); }
+.updated { font-size: .85rem; color: var(--dim); }
+.faq details {
+  background: linear-gradient(180deg, var(--bg2), #14100b);
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; margin-bottom: 12px;
+}
+.faq summary { cursor: pointer; font-weight: 600; color: var(--cream); font-family: "Poppins", sans-serif; font-size: 1.02rem; }
+.faq summary::marker { color: var(--gold); }
+.faq p { margin: 10px 0 0; }
+.contact-form { margin-top: 24px; max-width: 560px; }
+.field { display: block; margin-bottom: 18px; color: var(--cream); font-weight: 600; font-size: .95rem; }
+.field input, .field textarea, .field select {
+  display: block; width: 100%; margin-top: 8px; padding: 14px 16px;
+  background: var(--bg2); border: 1px solid var(--line); border-radius: 12px;
+  color: var(--cream); font-family: "Inter", sans-serif; font-size: 1rem;
+}
+.field input:focus, .field textarea:focus, .field select:focus { outline: none; border-color: var(--gold); }
+.field textarea { resize: vertical; }
 .foot-lockup { display: block; width: min(440px, 84%); height: auto; margin: 0 auto 20px; background: #fff; border-radius: 16px; padding: 12px 20px; box-shadow: 0 8px 24px rgba(18,20,22,.18); }
 footer p { color: #3a3a3a; font-size: .9rem; margin: 0; }
 
