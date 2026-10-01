@@ -1,66 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — BowlBoard</title>
-<meta name="description" content="How BowlBoard handles your account information, bowling data, cloud storage, and photos.">
-<meta name="theme-color" content="#121416">
-<link rel="icon" type="image/png" href="assets/app-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header class="nav">
-  <a class="brand" href="/">
-    <img src="assets/logo-horizontal-final.png" alt="BowlBoard" height="44">
-  </a>
-  <a class="btn btn-ghost" href="https://besobu07.github.io/bowlboard-web/">Try BowlBoard</a>
-</header>
-
-<main class="legal">
-  <p class="pill">Privacy Policy</p>
-  <h1>Privacy Policy</h1>
-  <p class="lede">BowlBoard is a personal bowling record. Your data belongs to you, and this policy explains what we collect, why, and how to delete it.</p>
-  <p class="updated">Last updated: September 30, 2026 · Provided by BowlBoard, LLC.</p>
-
-  <h2>Local storage</h2>
-  <p>BowlBoard is local-first. Your games, sessions, equipment, centers, and settings live on your device. The app makes automatic snapshots and offers explicit backup, restore, and export. Nothing is uploaded unless you create an account and sign in.</p>
-
-  <h2>Account information</h2>
-  <p>If you create a BowlBoard account, we collect your email address and the name or nickname you choose, and store your password securely through our authentication provider. Your email is used only to sign you in, reset your password, and contact you about your account. We do not sell your information.</p>
-
-  <h2>Bowling data</h2>
-  <p>Your bowling history — games, sessions, series totals, equipment, centers, lanes, oil patterns, and derived statistics — is the core of BowlBoard. It is stored on your device, and if you are signed in, a copy is synced to your personal cloud record so it follows you across devices.</p>
-
-  <h2>Cloud storage</h2>
-  <p>Cloud sync is provided by Supabase. When you are signed in, your bowling data is stored as one JSON document per user in a Postgres database, protected by Row Level Security: each user can only read and write the row that belongs to their own account. Local-first behavior stays intact — the cloud copy is additive, and signing in never silently overwrites data on your device.</p>
-
-  <h2>Scoreboard photos</h2>
-  <p>Photos of scoreboards you capture or choose for photo import stay on your device during the beta. They are never uploaded to the cloud, even when you are signed in.</p>
-
-  <h2>Supabase</h2>
-  <p>BowlBoard uses Supabase for authentication and cloud storage of your synced bowling data. Supabase processes your account information and bowling data solely to provide these services, under its own privacy and security practices.</p>
-
-  <h2>Third-party services</h2>
-  <p>Beyond Supabase (authentication and cloud storage), BowlBoard does not share your data with third parties. We do not run ads in the app, and we do not sell your account information or bowling data.</p>
-
-  <h2>Data retention</h2>
-  <p>Your data is kept as long as you keep it: locally on your device until you delete it, and in the cloud for as long as your account exists. If you sign out, your local data stays on your device and is not uploaded.</p>
-
-  <h2>Data deletion</h2>
-  <p>You can delete games and other records at any time inside the app. To delete your account and its cloud copy of your bowling data, sign in, go to More → Account, sign out, and email <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a> from your account email asking for deletion. We will remove your cloud record. Data on your device remains under your control and can be removed by clearing the app or deleting it.</p>
-
-  <h2>Contact information</h2>
-  <p>Questions about this policy or your data: <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a>.</p>
-</main>
-
-<footer>
-  <img class="foot-lockup" src="assets/wordmark-tagline-lockup.jpg" alt="BowlBoard — Built for Bowlers">
-  <p class="foot-links"><a href="privacy">Privacy</a> · <a href="terms">Terms</a> · <a href="support">Support</a></p>
-  <p>© 2026 BowlBoard · Built for Bowlers.</p>
-</footer>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — BowlBoard</title><meta name="description" content="BowlBoard Privacy Policy."><link rel="stylesheet" href="styles.css"></head><body class="legal"><header class="site-nav"><a class="brand" href="index.html"><img src="assets/wordmark.png" alt="BowlBoard"></a><a class="nav-link" href="index.html">Back to BowlBoard</a></header><main class="legal-wrap"><p class="eyebrow">BOWLBOARD</p><h1>Privacy Policy</h1><p class="legal-meta">Effective September 30, 2026</p>
+<p>BowlBoard (“BowlBoard,” “we,” “us,” or “our”) is a bowling record and scoring application. This Privacy Policy explains what information we collect, why we use it, when it is stored locally or in the cloud, and the choices available to you.</p>
+<h2>1. Information you provide</h2><p>Depending on how you use BowlBoard, you may provide:</p><ul><li><strong>Account information:</strong> email address and, if you choose, a display name when you create an account.</li><li><strong>Bowling data:</strong> games, scores, frames, sessions, dates, bowling centers, lanes, equipment, oil patterns, league information, notes, and related records you choose to enter.</li><li><strong>Photos:</strong> images of bowling scoreboards or score sheets when you use photo capture. In the current beta, these photos are stored on your device and are not included in ordinary cloud account sync.</li><li><strong>Support information:</strong> information you choose to include when contacting us, such as your email address, device/browser information, and a description of a problem.</li></ul>
+<h2>2. Information collected automatically</h2><p>BowlBoard may receive limited technical information from hosting, authentication, and security providers, such as IP address, browser/device information, timestamps, and request information. We use this information as necessary to operate, secure, troubleshoot, and maintain the service.</p><p>BowlBoard is not designed to collect precise location information, contacts, health information, financial information, or advertising identifiers.</p>
+<h2>3. How we use information</h2><p>We use information to:</p><ul><li>provide scoring, history, statistics, insights, imports, backups, and other BowlBoard features;</li><li>authenticate accounts and maintain sessions;</li><li>sync your bowling data when you choose to use an account;</li><li>respond to support requests and diagnose problems;</li><li>protect the service against abuse, fraud, and security threats; and</li><li>improve BowlBoard and develop new features.</li></ul><p>We do not use your bowling history to make decisions about you unrelated to BowlBoard.</p>
+<h2>4. Local-first storage</h2><p>BowlBoard is designed to keep your bowling data on your device whenever practical. You can use the app without an account. In that mode, your games and related local data remain in browser/device storage unless you export, share, or otherwise transmit them.</p>
+<h2>5. Accounts and cloud storage</h2><p>If you create a BowlBoard account, we use Supabase for authentication and cloud storage. Your cloud BowlBoard record is associated with your authenticated account and protected by row-level access controls. Cloud sync is intended to provide backup and access across devices.</p><p>In the current beta, scorecard photos are kept locally on the device rather than uploaded as part of the cloud sync record.</p>
+<h2>6. Third-party service providers</h2><p>BowlBoard relies on service providers to operate parts of the product, including:</p><ul><li><strong>Supabase:</strong> account authentication and cloud data storage.</li><li><strong>GitHub Pages / hosting providers:</strong> delivery of the web application and public website, as applicable.</li><li><strong>Tesseract.js delivery infrastructure:</strong> the beta may download the text-recognition library from a third-party content delivery network. The OCR processing itself is performed in the browser; BowlBoard does not intentionally send your scoreboard image to that CDN.</li></ul><p>These providers may process technical information necessary to provide their services. We do not sell your personal information to these providers.</p>
+<h2>7. Sharing and sale</h2><p>We do not sell your personal information. We do not share personal information for cross-context behavioral advertising. We may disclose information to service providers that process it on our behalf, when required by law, or when reasonably necessary to protect the rights, safety, security, or property of BowlBoard, our users, or others.</p>
+<h2>8. Your choices and deletion</h2><p>You may use BowlBoard without creating an account. If you create an account, you can sign out, request a password reset, and use the account deletion feature when available in the app. Account deletion removes your cloud account and associated cloud BowlBoard data; local device data may remain unless you separately erase it from your device.</p><p>You may also contact us at <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a> to ask about access, correction, deletion, or other privacy questions. Where applicable law gives you additional rights, we will honor those rights subject to lawful exceptions and verification requirements.</p>
+<h2>9. California privacy rights</h2><p>California law may provide qualifying residents with rights concerning access, deletion, correction, and certain disclosures of personal information. BowlBoard does not sell or share personal information for targeted advertising. Where applicable, you may exercise privacy rights by contacting <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a>. We may need to verify your request before completing it.</p>
+<h2>10. Data retention</h2><p>We retain account and cloud data for as long as reasonably necessary to provide the service, maintain security, comply with legal obligations, resolve disputes, and enforce agreements. When an account is deleted, BowlBoard is designed to delete the associated cloud application data and authentication account, subject to limited backups or records that may need to be retained for legitimate purposes.</p>
+<h2>11. Security</h2><p>We use reasonable technical and organizational measures appropriate to the nature of the information we process. No internet service or storage system can be guaranteed completely secure.</p>
+<h2>12. Children</h2><p>BowlBoard is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us personal information, contact us at <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a>.</p>
+<h2>13. Changes to this policy</h2><p>We may update this Privacy Policy as BowlBoard changes. We will post the revised policy at this location and update the effective date.</p>
+<h2>14. Contact</h2><p>BowlBoard is operated by <strong>BowlBoard, LLC</strong>.</p><p>Privacy questions: <a href="mailto:hello@bowlboard.app">hello@bowlboard.app</a></p>
+<p class="legal-note"><strong>Important:</strong> This draft is intended to accurately describe the current BowlBoard beta architecture. It is not legal advice. Before public/App Store launch, have counsel review it against the final business entity, jurisdictions, vendors, analytics, retention practices, and Apple privacy disclosures.</p>
+</main><footer class="legal-foot">© 2026 BowlBoard · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></footer></body></html>
