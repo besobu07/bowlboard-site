@@ -13,3 +13,7 @@ Privacy Policy and Terms are product-specific drafts, not legal advice. Have cou
 
 ## v2.1 polish
 Bundled Inter/Inter Display fonts are included locally so typography does not depend on Google Fonts or a missing Poppins asset. The stylesheet is cache-busted as `styles.css?v=2.1`.
+
+
+### v2.2 visual update
+The hero, Capture, and History sections now use screenshots captured from the v1.3.1 BowlBoard beta build rather than illustrative UI mockups. The surrounding presentation remains a marketing treatment, but the product screens themselves are real.
