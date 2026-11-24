@@ -5,7 +5,7 @@ A fresh static marketing site concept for BowlBoard, with Privacy, Terms, and Su
 ## Deploy
 Upload the contents of this folder to the GitHub Pages repository/branch that serves `bowlboard.app`. No build step is required.
 
-The primary CTA points to the current BowlBoard prototype: https://besobu07.github.io/bowlboard-web/
+The primary CTA points to https://bowlboard.app/app/, which redirects to https://app.bowlboard.app/ (configured in app/index.html).
 
 ## Important legal note
 Privacy Policy and Terms are product-specific drafts, not legal advice. Have counsel review them before App Store/public launch, especially after adding analytics, payments, ads, native SDKs, or changing data flows. Apple requires an accessible privacy policy URL and accurate App Privacy disclosures in App Store Connect.
