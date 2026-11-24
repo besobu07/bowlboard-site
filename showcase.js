@@ -5,7 +5,7 @@
   const play = document.getElementById('showcase-play');
   if (!play || tabs.length < 2) return;
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const interval = 7000;
+  const interval = 3000;
   let active = Math.max(0, tabs.findIndex(t => t.getAttribute('aria-pressed') === 'true'));
   let playing = !motion.matches;
   let hovered = false, focused = showcase.contains(document.activeElement);
